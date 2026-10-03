@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Academia contemporânea: musculação, cardio, funcional e treino personalizado. Estrutura moderna, acesso 24h e planos para todos os ritmos." />
+  <meta name="theme-color" content="#0b0c0d" />
+  <title>Academia — Treino, disciplina e estrutura</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230b0c0d'/%3E%3Crect x='8' y='8' width='16' height='5' rx='2' fill='%23c8f31d'/%3E%3Crect x='8' y='19' width='16' height='5' rx='2' fill='white'/%3E%3C/svg%3E" />
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="#inicio" class="brand" aria-label="Voltar ao início">
+        <span class="brand__mark" aria-hidden="true"></span>
+        <span class="brand__text">ACADEMIA<span class="brand__dot">.</span></span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Navegação principal">
+        <ul class="nav__list">
+          <li><a href="#inicio" class="nav__link" aria-current="page">Início</a></li>
+          <li><a href="#academia" class="nav__link">Academia</a></li>
+          <li><a href="#modalidades" class="nav__link">Modalidades</a></li>
+          <li><a href="#planos" class="nav__link">Planos</a></li>
+          <li><a href="#estrutura" class="nav__link">Estrutura</a></li>
+          <li><a href="#contato" class="nav__link">Contato</a></li>
+        </ul>
+        <a href="#planos" class="btn btn--lime nav__cta">Começar agora</a>
+      </nav>
+
+      <div class="navbar__actions">
+        <a href="#planos" class="btn btn--lime btn--sm navbar__cta-desktop">Começar agora</a>
+        <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <!-- HERO -->
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero__bg" aria-hidden="true">
+        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1920&auto=format&fit=crop" alt="" fetchpriority="high" />
+        <div class="hero__overlay"></div>
+      </div>
+
+      <div class="container hero__inner">
+        <div class="hero__content reveal">
+          <p class="eyebrow"><span class="eyebrow__dot"></span> Academia contemporânea — acesso 24h</p>
+          <h1 id="hero-title">SUPERE<br />SEU LIMITE<span class="lime">.</span></h1>
+          <p class="hero__sub">Treino, disciplina e estrutura para transformar sua rotina.</p>
+          <div class="hero__buttons">
+            <a href="#academia" class="btn btn--lime">Conheça a academia</a>
+            <a href="#planos" class="btn btn--ghost">Ver planos</a>
+          </div>
+          <ul class="hero__meta" aria-label="Diferenciais">
+            <li><strong>24H</strong><span>acesso liberado</span></li>
+            <li><strong>TREINO</strong><span>orientado</span></li>
+            <li><strong>PERFORMANCE</strong><span>mensurável</span></li>
+          </ul>
+        </div>
+
+        <aside class="hero__card reveal" aria-label="Informação de funcionamento">
+          <div class="hero__card-top">
+            <span class="live" aria-hidden="true"></span>
+            <p>Unidade aberta agora</p>
+          </div>
+          <p class="hero__card-hours">Seg — Dom · 24 horas</p>
+          <div class="hero__card-div"></div>
+          <dl class="hero__card-stats">
+            <div><dt>Áreas</dt><dd>+20</dd></div>
+            <div><dt>Modalidades</dt><dd>04</dd></div>
+            <div><dt>Avaliação</dt><dd>Inclusa</dd></div>
+          </dl>
+          <a href="#contato" class="hero__card-link">Agendar visita <span aria-hidden="true">→</span></a>
+        </aside>
+      </div>
+      <a href="#academia" class="hero__scroll" aria-label="Rolar para a seção academia"><span></span></a>
+    </section>
+
+    <!-- APRESENTAÇÃO -->
+    <section class="section about" id="academia" aria-labelledby="about-title">
+      <div class="container about__grid">
+        <div class="about__text reveal">
+          <p class="kicker">A academia</p>
+          <h2 id="about-title">Mais que<br />uma academia.</h2>
+          <p class="lead">Um espaço pensado para quem busca evolução, qualidade de treino e uma rotina mais ativa.</p>
+          <p class="muted">Salas amplas, equipamentos de última geração e organização pensada para o fluxo real de treino — do aquecimento à recuperação. Aqui você treina no seu ritmo, com suporte quando precisa.</p>
+          <ul class="checklist">
+            <li>Ambiente amplo e bem iluminado</li>
+            <li>Equipamentos modernos e revisados</li>
+            <li>Equipe presente no salão</li>
+          </ul>
+          <a href="#estrutura" class="text-link">Conhecer a estrutura <span aria-hidden="true">→</span></a>
+        </div>
+
+        <figure class="about__media reveal">
+          <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?q=80&w=1200&auto=format&fit=crop" alt="Aluno treinando com halteres em academia moderna com iluminação baixa" loading="lazy" />
+          <figcaption class="about__badge"><strong>24H</strong> todos os dias</figcaption>
+        </figure>
+
+        <div class="about__stats reveal" role="list" aria-label="Indicadores da academia">
+          <div role="listitem"><strong data-count="20" data-prefix="+" data-suffix="">+20</strong><span>Áreas de treino</span></div>
+          <div role="listitem"><strong>24H</strong><span>Acesso liberado</span></div>
+          <div role="listitem"><strong data-count="120" data-prefix="+" data-suffix="">+120</strong><span>Equipamentos</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MODALIDADES -->
+    <section class="section modes" id="modalidades" aria-labelledby="modes-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="kicker">Modalidades</p>
+            <h2 id="modes-title">Encontre seu ritmo.</h2>
+          </div>
+          <p class="section-head__desc">Quatro frentes de treino para diferentes objetivos — força, condicionamento, mobilidade e acompanhamento individual.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card reveal">
+            <div class="card__media">
+              <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=800&auto=format&fit=crop" alt="Mulher executando exercício com halteres na área de musculação" loading="lazy" />
+              <span class="card__tag">Força</span>
+            </div>
+            <div class="card__body">
+              <h3>Musculação</h3>
+              <p>Equipamentos guiados, pesos livres e progressão assistida para ganho de força.</p>
+              <button class="card__link" data-modal="musculacao">Saiba mais <span aria-hidden="true">→</span></button>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__media">
+              <img src="https://images.unsplash.com/photo-1593079831268-3381b0db4a77?q=80&w=800&auto=format&fit=crop" alt="Fileira de esteiras em sala de cardio ampla e moderna" loading="lazy" />
+              <span class="card__tag">Condicionamento</span>
+            </div>
+            <div class="card__body">
+              <h3>Cardio</h3>
+              <p>Esteiras, bikes e elípticos com monitoramento de intensidade em tempo real.</p>
+              <button class="card__link" data-modal="cardio">Saiba mais <span aria-hidden="true">→</span></button>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__media">
+              <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?q=80&w=800&auto=format&fit=crop" alt="Treino funcional com kettlebell em espaço amplo" loading="lazy" />
+              <span class="card__tag">Mobilidade</span>
+            </div>
+            <div class="card__body">
+              <h3>Funcional</h3>
+              <p>Circuitos dinâmicos que trabalham força, agilidade e consciência corporal.</p>
+              <button class="card__link" data-modal="funcional">Saiba mais <span aria-hidden="true">→</span></button>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__media">
+              <img src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?q=80&w=800&auto=format&fit=crop" alt="Personal trainer acompanhando aluno em exercício" loading="lazy" />
+              <span class="card__tag">Individual</span>
+            </div>
+            <div class="card__body">
+              <h3>Treino Personalizado</h3>
+              <p>Plano individual com avaliação física e acompanhamento próximo.</p>
+              <button class="card__link" data-modal="personal">Saiba mais <span aria-hidden="true">→</span></button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ESTRUTURA -->
+    <section class="section structure" id="estrutura" aria-labelledby="structure-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="kicker">Estrutura</p>
+            <h2 id="structure-title">Estrutura para evoluir.</h2>
+          </div>
+          <p class="section-head__desc">Clique em uma imagem para ampliar. Ambientes setorizados para treinar sem espera e com conforto.</p>
+        </div>
+
+        <div class="gallery reveal" id="gallery">
+          <figure class="g g--wide" tabindex="0" data-full="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1600&auto=format&fit=crop">
+            <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1200&auto=format&fit=crop" alt="Área de musculação com racks de halteres e equipamentos modernos" loading="lazy" />
+            <figcaption>Área de musculação</figcaption>
+          </figure>
+          <figure class="g" tabindex="0" data-full="https://images.unsplash.com/photo-1593079831268-3381b0db4a77?q=80&w=1600&auto=format&fit=crop">
+            <img src="https://images.unsplash.com/photo-1593079831268-3381b0db4a77?q=80&w=800&auto=format&fit=crop" alt="Área de cardio com esteiras enfileiradas em salão moderno" loading="lazy" />
+            <figcaption>Área de cardio</figcaption>
+          </figure>
+          <figure class="g" tabindex="0" data-full="https://images.unsplash.com/photo-1517963879433-6ad2b056d712?q=80&w=1600&auto=format&fit=crop">
+            <img src="https://images.unsplash.com/photo-1517963879433-6ad2b056d712?q=80&w=800&auto=format&fit=crop" alt="Barras e anilhas organizadas na área de pesos livres" loading="lazy" />
+            <figcaption>Pesos livres</figcaption>
+          </figure>
+          <figure class="g" tabindex="0" data-full="https://images.unsplash.com/photo-1590487988256-9ed24133863e?q=80&w=1600&auto=format&fit=crop">
+            <img src="https://images.unsplash.com/photo-1590487988256-9ed24133863e?q=80&w=800&auto=format&fit=crop" alt="Espaço funcional com caixas, cordas e acessórios" loading="lazy" />
+            <figcaption>Espaço funcional</figcaption>
+          </figure>
+          <figure class="g" tabindex="0" data-full="https://images.unsplash.com/photo-1552196563-55cd4e45efb3?q=80&w=1600&auto=format&fit=crop">
+            <img src="https://images.unsplash.com/photo-1552196563-55cd4e45efb3?q=80&w=800&auto=format&fit=crop" alt="Área de alongamento com tapetes e ambiente calmo" loading="lazy" />
+            <figcaption>Área de alongamento</figcaption>
+          </figure>
+          <figure class="g g--wide" tabindex="0" data-full="https://images.unsplash.com/photo-1576678927484-cc907957088c?q=80&w=1600&auto=format&fit=crop">
+            <img src="https://images.unsplash.com/photo-1576678927484-cc907957088c?q=80&w=1200&auto=format&fit=crop" alt="Vestiário moderno e organizado com armários" loading="lazy" />
+            <figcaption>Vestiários</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- PLANOS -->
+    <section class="section plans" id="planos" aria-labelledby="plans-title">
+      <div class="container">
+        <div class="section-head section-head--center reveal">
+          <p class="kicker kicker--center">Planos</p>
+          <h2 id="plans-title">Escolha seu plano.</h2>
+          <p class="section-head__desc">Valores demonstrativos para apresentação da interface. Fale com a equipe para condições atuais.</p>
+        </div>
+
+        <div class="plans__grid">
+          <article class="plan reveal">
+            <h3>Básico</h3>
+            <p class="plan__price"><span class="plan__currency">R$</span>79,90<span class="plan__per">/mês</span></p>
+            <ul>
+              <li>Acesso à musculação</li>
+              <li>Área de cardio</li>
+              <li>Acesso em horário comercial</li>
+              <li>Avaliação física inicial</li>
+            </ul>
+            <button class="btn btn--outline plan-btn" data-plan="Básico">Quero este plano</button>
+          </article>
+
+          <article class="plan plan--featured reveal" aria-label="Plano completo, destaque">
+            <span class="plan__flag">Mais procurado</span>
+            <h3>Completo</h3>
+            <p class="plan__price"><span class="plan__currency">R$</span>109,90<span class="plan__per">/mês</span></p>
+            <ul>
+              <li>Tudo do Básico</li>
+              <li>Aulas coletivas</li>
+              <li>Acesso em horários ampliados</li>
+              <li>Avaliação física trimestral</li>
+              <li>App de treino</li>
+            </ul>
+            <button class="btn btn--lime plan-btn" data-plan="Completo">Quero este plano</button>
+          </article>
+
+          <article class="plan reveal">
+            <h3>Premium</h3>
+            <p class="plan__price"><span class="plan__currency">R$</span>149,90<span class="plan__per">/mês</span></p>
+            <ul>
+              <li>Tudo do Completo</li>
+              <li>Acesso 24h todos os dias</li>
+              <li>1 sessão com personal / mês</li>
+              <li>Área de recuperação</li>
+              <li>Toalha e armário inclusos</li>
+            </ul>
+            <button class="btn btn--outline plan-btn" data-plan="Premium">Quero este plano</button>
+          </article>
+        </div>
+        <p class="plans__note reveal">Projeto conceitual — preços e condições exibidos apenas para demonstração visual.</p>
+      </div>
+    </section>
+
+    <!-- PERFORMANCE -->
+    <section class="performance" aria-labelledby="perf-title">
+      <div class="container performance__inner reveal">
+        <div class="performance__text">
+          <p class="kicker kicker--light">Performance</p>
+          <h2 id="perf-title">Seu treino.<br />Sua evolução.</h2>
+          <p>Acompanhamos presença, progressão de carga e constância para manter sua rotina no trilho — sem complicação.</p>
+        </div>
+        <dl class="perf-stats">
+          <div><dt>Alunos</dt><dd><span data-count="500" data-prefix="+" >+500</span></dd></div>
+          <div><dt>Acesso</dt><dd>24H</dd></div>
+          <div><dt>Foco no treino</dt><dd><span data-count="100" data-suffix="%">100%</span></dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- DEPOIMENTOS -->
+    <section class="section testimonials" aria-labelledby="testi-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="kicker">Depoimentos</p>
+            <h2 id="testi-title">Quem treina aqui.</h2>
+          </div>
+          <p class="section-head__desc">Relatos demonstrativos para composição da interface.</p>
+        </div>
+        <div class="testi-grid">
+          <blockquote class="testi reveal">
+            <p>“Ambiente excelente, equipamentos modernos e uma estrutura que realmente ajuda na rotina de treino.”</p>
+            <footer>— Rafael <span>· aluno há 1 ano</span></footer>
+          </blockquote>
+          <blockquote class="testi reveal">
+            <p>“Consegui organizar melhor meus horários e manter uma rotina de exercícios.”</p>
+            <footer>— Camila <span>· aluna há 8 meses</span></footer>
+          </blockquote>
+          <blockquote class="testi reveal">
+            <p>“Gosto principalmente da variedade de equipamentos e da organização do espaço.”</p>
+            <footer>— Diego <span>· aluno há 2 anos</span></footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta" aria-labelledby="cta-title">
+      <div class="container cta__inner reveal">
+        <h2 id="cta-title">Pronto para começar?</h2>
+        <p>Escolha seu plano e dê o próximo passo na sua rotina.</p>
+        <a href="#planos" class="btn btn--lime btn--lg">Quero começar</a>
+        <small>Fale com a equipe para conhecer as opções disponíveis.</small>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="section contact" id="contato" aria-labelledby="contact-title">
+      <div class="container contact__grid">
+        <div class="reveal">
+          <p class="kicker">Contato</p>
+          <h2 id="contact-title">Fale com a gente.</h2>
+          <p class="lead">Agende uma visita e conheça o espaço sem compromisso.</p>
+          <ul class="contact__info">
+            <li><strong>Horário</strong><span>Segunda a domingo · 24 horas</span></li>
+            <li><strong>Localização</strong><span>Seu endereço aqui</span></li>
+            <li><strong>Contato</strong><span><a href="mailto:contato@academia.exemplo">Entre em contato</a> · resposta em até 1 dia útil</span></li>
+          </ul>
+        </div>
+
+        <form class="form reveal" id="contactForm" novalidate aria-label="Formulário de contato">
+          <div class="form__row">
+            <div class="field">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" placeholder="Seu nome" autocomplete="name" required minlength="2" />
+              <small class="field__error" aria-live="polite"></small>
+            </div>
+            <div class="field">
+              <label for="telefone">Telefone</label>
+              <input type="tel" id="telefone" name="telefone" placeholder="(00) 90000-0000" autocomplete="tel" required inputmode="tel" />
+              <small class="field__error" aria-live="polite"></small>
+            </div>
+          </div>
+          <div class="field">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="voce@email.com" autocomplete="email" required />
+            <small class="field__error" aria-live="polite"></small>
+          </div>
+          <div class="field">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Quero conhecer os planos..." required minlength="10"></textarea>
+            <small class="field__error" aria-live="polite"></small>
+          </div>
+          <button type="submit" class="btn btn--lime btn--full" id="submitBtn">Enviar mensagem</button>
+          <p class="form__feedback" id="formFeedback" role="status" aria-live="polite" hidden></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__mantra">TREINO • FOCO • EVOLUÇÃO</p>
+      <nav aria-label="Links do rodapé">
+        <ul class="footer__links">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#academia">Academia</a></li>
+          <li><a href="#modalidades">Modalidades</a></li>
+          <li><a href="#planos">Planos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <p class="footer__note">Projeto conceitual. Informações apresentadas exclusivamente para demonstração da interface.</p>
+      <p class="footer__copy">© <span id="year">2026</span> Academia — Todos os direitos reservados (demonstração).</p>
+    </div>
+  </footer>
+
+  <!-- Modal genérico -->
+  <div class="modal" id="infoModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+    <div class="modal__backdrop" data-close></div>
+    <div class="modal__box">
+      <button class="modal__close" data-close aria-label="Fechar diálogo">✕</button>
+      <p class="kicker">Detalhes</p>
+      <h3 id="modalTitle">Modalidade</h3>
+      <p id="modalText" class="muted"></p>
+      <a href="#planos" class="btn btn--lime" data-close-link>Ver planos</a>
+    </div>
+  </div>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Imagem ampliada" hidden>
+    <div class="lightbox__backdrop" data-close></div>
+    <figure class="lightbox__box">
+      <img id="lightboxImg" alt="" />
+      <figcaption id="lightboxCap"></figcaption>
+      <button class="modal__close modal__close--light" data-close aria-label="Fechar imagem">✕</button>
+    </figure>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <button class="to-top" id="toTop" aria-label="Voltar ao topo" hidden>↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
